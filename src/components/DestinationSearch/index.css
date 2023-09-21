@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.destination-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.input-element {
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px 15px 20px;
+  font-size: 16px;
+  width: 300px;
+  outline: none;
+}
+
+.search-img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 270px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .search-container {
+    margin-bottom: 20px;
+  }
+
+  .input-element {
+    padding: 7px 20px 7px 10px;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .search-img {
+    left: 170px;
+  }
+
+  .destination-list {
+    margin-bottom: 8px;
+  }
+}
